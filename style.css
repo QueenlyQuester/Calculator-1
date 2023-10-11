@@ -92,6 +92,6 @@ button:hover{
 	.calculator-wrapper {
 		width: 70%;
     height: auto;
-    padding-bottom: 50px;
+    padding: 55px 5px;
 	}
 }
