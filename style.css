@@ -87,11 +87,4 @@ button:hover{
 
 
 
-/* media query to adjust responsiveness on small screens */
-@media screen and (max-width: 480px) {
-	.calculator-wrapper {
-		width: 70%;
-    height: auto;
-    padding: 55px 5px;
-	}
-}
+
