@@ -95,8 +95,8 @@ button:hover{
     align-items: center;
     justify-content: center;
     height: auto;
-    width: auto;
-    padding: 55px 5px;
+    width: 65%;
+    padding: 35px 5px;
     margin: auto;
     border-radius: 10px;
 	}
