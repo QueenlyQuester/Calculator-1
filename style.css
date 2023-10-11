@@ -12,6 +12,7 @@ h2 {
   font-family: Ubuntu;
   color: #ffffff;
   text-shadow: 2px 2px 8px #000000;
+  text-align: center;
 }
 /* The grey box for calculator */
 .calculator-wrapper {
@@ -22,7 +23,7 @@ h2 {
   height: auto;
   width: 25%;
   background-color: #333333;
-  padding: 15px;
+  padding: 55px 5px;
   margin: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
