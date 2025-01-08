@@ -34,4 +34,19 @@ document.addEventListener("DOMContentLoaded", () => {
   
   // This block of code adds a click event listener to the "clear" button.
   clearBtn.addEventListener("click", () => {
-    // When
+    // When the clear button is clicked, set the display value to an empty string
+    display.value = "";
+  });
+  
+  // This block of code adds a click event listener to the "equal" button.
+  equalBtn.addEventListener("click", () => {
+    try {
+      // Use eval() to calculate the result of the expression in the display
+      // Note: While eval() is used here for simplicity, it's generally not recommended for production due to security risks
+      display.value = eval(display.value);
+    } catch (error) {
+      // If there's an error in calculation, display "Error"
+      display.value = "Error";
+    }
+  });
+});
